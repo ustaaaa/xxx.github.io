@@ -196,7 +196,7 @@ blockquote {
     position: absolute;
     width: 100%;
     display: block !important;
-    height: 600px;
+    height: 747px;
     -webkit-transition: opacity ease-in-out 500ms;
     -moz-transition: opacity ease-in-out 500ms;
     -o-transition: opacity ease-in-out 500ms;
@@ -294,8 +294,15 @@ blockquote {
     width: 50%;
 }
 
+
 .portfolio-items.col-3 > li {
     width: 33%;
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio-items.col-3 > li {
+        width: 48%;
+    }
 }
 
 .portfolio-items.col-4 > li {
@@ -322,8 +329,16 @@ blockquote {
     position: relative;
 }
 
+
+
 .portfolio-item img {
     width: 45%;
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio-item img {
+        width: 100%;
+    }
 }
 
 .portfolio-item h5 {
@@ -1150,6 +1165,13 @@ ul.tag-cloud li {
 
 .row > div {
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .row > div {
+    	margin-top: 180px;
+    	margin-bottom: 10px;
+	}
 }
 
 ul.unstyled {
